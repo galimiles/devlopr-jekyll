@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker 部署jekyll个人博客"
 summary: 暗黑模式的程序员主题 
-author: miles
+author: Miles
 date: '2025-06-07 06:35:23 +0530'
 category: docker 
 thumbnail: /assets/img/posts/code.jpg
