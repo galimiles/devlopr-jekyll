@@ -18,7 +18,7 @@ mkdir -p jekyll
 cd jekyll
 chown -R 1000:1000 .
 # 从github仓库中迁出代码到目录中
-git clone git@github.com:galimiles/devlopr-jekyll.git .
+git clone git@github.com:galimiles/devlopr.git .
 
 
 ```
