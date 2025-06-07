@@ -27,12 +27,12 @@ future: true  # 始终生成未来日期的文章
 
 
 author_logo: profile.png
-author: John Doe
+author: Miles
 author_bio: 嗨！大家好Hi,我是MIles.在这里创建我个人的博客 :D
 author_email: "mail@galixzy@msn.com"
 author_location: India
 author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+typewrite-text: 我是一位奔五的老程序猿Miles 欢迎来到www.miles.host之家。 
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences

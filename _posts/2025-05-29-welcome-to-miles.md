@@ -4,7 +4,7 @@ title:  "欢迎小伙伴们的到来 !"
 summary: "Welcome "
 author: Miles
 date: '2025-05-29 12:35:23 +0530'
-category: Common
+category: common
 thumbnail: /assets/img/posts/code.jpg
 keywords: common
 permalink: /blog/welcome-to-miles/
