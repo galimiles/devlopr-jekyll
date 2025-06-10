@@ -1,5 +1,5 @@
 services:
-  jekyllbuild:
+  jekyll:
     build:
       context: .
       dockerfile: Dockerfile
