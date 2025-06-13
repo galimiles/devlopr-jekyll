@@ -46,7 +46,6 @@ docker logs <容器ID>
 
 CLI 默认通过 UNIX socket /var/run/docker.sock 与 Daemon 通信。
 
-------
 
 ## 2. Docker Daemon（守护进程）
 
@@ -61,7 +60,6 @@ CLI 默认通过 UNIX socket /var/run/docker.sock 与 Daemon 通信。
 systemctl status docker
 ```
 
-------
 
 ## 3. Docker REST API
 
@@ -83,7 +81,6 @@ dockerd -H tcp://0.0.0.0:2375
 
 **注意：未加 TLS 的 API 暴露端口极不安全，请谨慎使用！**
 
-------
 
 ## 4. 镜像（Images）
 
@@ -121,7 +118,6 @@ docker run -it ubuntu bash
 docker exec -it 容器ID /bin/bash
 ```
 
-------
 
 ## 6. 仓库（Registry）
 
@@ -136,8 +132,6 @@ docker push myharbor.local/nginx
 
 私有仓库往往结合企业 CI/CD 流水线使用，支持用户认证、镜像清理、镜像扫描等高级功能。
 
-------
-
 ## 7. Docker Storage（Volume / Bind Mount）
 
 容器是临时性的，默认停止就会丢数据，因此要用数据卷（Volume）来挂载持久化数据。
@@ -147,7 +141,6 @@ docker volume create mydata
 docker run -v mydata:/app/data nginx
 ```
 
-------
 
 # 四、Docker 的核心使用场景
 
@@ -169,7 +162,6 @@ docker run -d -p 80:80 nginx
 
 配合 GitLab CI、GitHub Actions、Jenkins，可以做到每次提交自动构建镜像、部署到测试或生产环境。
 
-------
 
 # 五、实战：一步步理解 Nginx 容器的生命周期
 
@@ -204,7 +196,6 @@ docker stop mynginx && docker rm mynginx
 ❌ **“Docker 默认不安全”？**
  ✅ Docker 需要合理配置 daemon 参数、权限控制、API 安全、镜像扫描等。
 
-------
 
 # 七、总结：理解架构，才能玩转 Docker
 
